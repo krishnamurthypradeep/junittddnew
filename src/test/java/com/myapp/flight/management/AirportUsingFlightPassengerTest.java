@@ -55,25 +55,25 @@ public class AirportUsingFlightPassengerTest {
 			
 		}
 		
-		@DisplayName("When We Have a Vip Passenger")
-		@Nested
-		class VipPassenger{
-			
-			@Test
-			@DisplayName("Then we will be add and Remove from an economy flight")
-			public void testEconomyFlightForUsualPassenger() {
-				assertAll("Verify All Conditions ForVip Passenger on a economy flight",
-						
-						()-> assertEquals("1", economyFlight.getId()),
-						()-> assertTrue( economyFlight.addPassenger(pass2)),
-						()-> assertEquals( 1,economyFlight.getList().size()),
-						()-> assertEquals("Pass2", economyFlight.getList().get(0).getName()),
-						()-> assertTrue( economyFlight.removePassenger(pass2)),
-						()-> assertEquals(0, economyFlight.getList().size()));
-				
-			}
-			
-		}
+//		@DisplayName("When We Have a Vip Passenger")
+//		@Nested
+//		class VipPassenger{
+//			
+//			@Test
+//			@DisplayName("Then we will be add and Remove from an economy flight")
+//			public void testEconomyFlightForUsualPassenger() {
+//				assertAll("Verify All Conditions ForVip Passenger on a economy flight",
+//						
+//						()-> assertEquals("1", economyFlight.getId()),
+//						()-> assertTrue( economyFlight.addPassenger(pass2)),
+//						()-> assertEquals( 1,economyFlight.getList().size()),
+//						()-> assertEquals("Pass2", economyFlight.getList().get(0).getName()),
+//						()-> assertTrue( economyFlight.removePassenger(pass2)),
+//						()-> assertEquals(0, economyFlight.getList().size()));
+//				
+//			}
+//			
+//		}
 		
 	}
 
