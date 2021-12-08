@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+junittdd,com.myapp.flight.management,BusinessFlight,16,0,2,0,6,0,4,0,3,0
+junittdd,com.myapp.flight.management,Passenger,38,20,7,1,5,8,5,4,1,4
+junittdd,com.myapp.flight.management,EconomyFlight,0,19,0,2,0,6,0,4,0,3
+junittdd,com.myapp.flight.management,Flight,11,18,0,0,5,6,3,3,3,3
